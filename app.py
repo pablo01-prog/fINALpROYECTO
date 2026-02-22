@@ -4,7 +4,6 @@ import os
 import re
 import easyocr
 import numpy as np
-import speech_recognition as sr # VOLVEMOS AL DE TU PROFESORA
 from PIL import Image
 from dotenv import load_dotenv
 import google.generativeai as genai
