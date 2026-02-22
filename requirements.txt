@@ -1,9 +1,10 @@
-streamlit
-joblib
-scikit-learn
-easyocr
-numpy
-Pillow
-python-dotenv
-google-generativeai>=0.7.0
-SpeechRecognition
+import streamlit as st
+import joblib
+import os
+import re
+import easyocr
+import numpy as np
+import requests # <-- ¡Añade esta línea!
+from PIL import Image
+from dotenv import load_dotenv
+import google.generativeai as genai
